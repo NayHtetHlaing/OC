@@ -6,6 +6,6 @@ bars.addEventListener("click", function() {
 });
 
 window.addEventListener("scroll", function () {
-     navlinks.classList.toggle("show");
-    bars.classList.toggle("fa-times");
+     navlinks.classList.remove("show");
+    bars.classList.remove("fa-times");
 });
