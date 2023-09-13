@@ -4,3 +4,8 @@ bars.addEventListener("click", function() {
     navlinks.classList.toggle("show");
     bars.classList.toggle("fa-times");
 });
+
+window.addEventListener("scroll", function () {
+     navlinks.classList.toggle("show");
+    bars.classList.toggle("fa-times");
+});
